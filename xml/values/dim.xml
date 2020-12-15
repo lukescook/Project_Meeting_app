@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_margin">16dp</dimen>
+    <dimen name="stand_margin">6dip</dimen>
+    <dimen name="left_pad">3dp</dimen>
+    <dimen name="first_margin">30dp</dimen>
+    <dimen name="large_margin">29dp</dimen>
+    <dimen name="mid_margin">20dp</dimen>
+    <dimen name="setting_pad">20dip</dimen>
+    <dimen name="min_margin">15dp</dimen>
+    <dimen name="min_mid_margin">-20dp</dimen>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="big_text">30sp</dimen>
+    <dimen name="divider">1dp</dimen>
+</resources>

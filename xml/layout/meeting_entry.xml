@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/left_pad">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSave">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/left_pad">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_name"
+        android:id="@+id/textName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/first_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_date_time"
+        android:id="@+id/textDT"
+        android:layout_below="@+id/textName"
+        android:layout_marginTop="@dimen/large_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_notes"
+        android:id="@+id/textNotes"
+        android:layout_below="@+id/textDT"
+        android:layout_marginTop="@dimen/large_margin" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_attendees"
+        android:id="@+id/textAtt"
+        android:layout_below="@+id/editNotes"
+        android:layout_marginTop="@dimen/mid_margin" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_location"
+            android:id="@+id/textLoc"
+            android:layout_below="@+id/textAtt"
+            android:layout_alignBaseline="@+id/editLoc" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editMeetingName"
+        android:layout_above="@+id/textDT"
+        android:layout_toEndOf="@+id/textName"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_date_time"
+        android:gravity="center"
+        android:id="@+id/editDT"
+        android:layout_above="@+id/textNotes"
+        android:layout_toEndOf="@+id/textDT"
+        android:freezesText="true"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textSize="@dimen/text_size"
+        android:layout_alignEnd="@+id/editMeetingName" />
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"
+    android:id="@+id/editNotes"
+    android:layout_alignTop="@+id/textNotes"
+    android:layout_alignStart="@+id/editMeetingName"
+    android:layout_alignEnd="@+id/editDT"
+        android:layout_marginTop="@dimen/min_mid_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tap_here_to_add_attendees"
+        android:id="@+id/editAtt"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:textSize="@dimen/text_size"
+        android:layout_below="@+id/editNotes"
+        android:layout_toEndOf ="@+id/textAtt"
+        android:layout_alignEnd="@+id/editMeetingName"
+        android:freezesText="true"
+        android:layout_marginTop="@dimen/min_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_location"
+            android:gravity="center"
+            android:layout_below="@+id/editAtt"
+            android:id="@+id/editLoc"
+            android:layout_toEndOf="@+id/textLoc"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textSize="@dimen/text_size"
+            android:freezesText="true"
+            android:layout_alignEnd="@+id/editMeetingName"
+            android:layout_marginTop="@dimen/min_margin"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save"
+        android:src="@drawable/ic_save_black_24dp"
+        android:id="@+id/btnSave"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnClose" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClose"
+        android:src="@drawable/ic_close_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

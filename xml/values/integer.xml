@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="alter_font_size">50</integer>
+    <integer name="alter_font_colour">-16777216</integer>
+    <integer name="colour_limit">15199493</integer>
+</resources>
