@@ -1,11 +1,11 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * MaDB.java
  * contains the meeting attendee database table information
  *which links attendees with meetings
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 public class MaDB {
