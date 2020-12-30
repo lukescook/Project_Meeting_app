@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * Att.java
  * This class displays a list of Attendees where a user can add people to the list
  * If a user clicks on an attendee then they it will be added to the meeting
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.content.DialogInterface;
