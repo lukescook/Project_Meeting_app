@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * MeetingDB.java
  * contains meeting database table information
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 public class MeetingDB {
     // Labels table name
