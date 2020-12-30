@@ -1,11 +1,11 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * MapActivity.java
  * A user can select and view meeting locations on the map
  * selecting a location can be done by search, selecting a longitude latitude location
  * or a point of interest
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 
