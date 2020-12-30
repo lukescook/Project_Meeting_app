@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * AttDB.java
  * contains attendees database table information
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 public class AttDB {
     public static final String TABLE = "People";
