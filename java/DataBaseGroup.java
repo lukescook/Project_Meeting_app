@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * DataBaseGroup.java
  * Used to create three tables (meetings , attendees and another to see which meetings
  * attendees go to
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 
