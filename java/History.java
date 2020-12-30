@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * History.java
  * This class displays a list of History meetings
  * If a user clicks on a meeting then they can view the meeting
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 import android.content.Intent;
 import android.content.SharedPreferences;
