@@ -1,4 +1,4 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * MaHandle.java
@@ -10,7 +10,7 @@ package com.example.a906771.projectmeetingapp;
  * You can get a string of all meetings an attendee is in
  * You can get a string of all the attendees for a meeting
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.content.ContentValues;
