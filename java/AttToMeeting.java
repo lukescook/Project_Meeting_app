@@ -1,4 +1,4 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,7 +30,7 @@ import java.util.HashMap;
  *This class displays a list of all attendees, if you click on an attendee then a dialog box will
  * appear with all the meeting that they are in
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 public class AttToMeeting extends AppCompatActivity  {
     TextView meeting_Id;
