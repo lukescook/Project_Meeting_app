@@ -1,9 +1,9 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * Settings.java
  * The user can select the colour and text size with sliders
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.content.SharedPreferences;
