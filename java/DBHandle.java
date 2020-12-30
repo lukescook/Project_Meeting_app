@@ -1,4 +1,4 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * AttDBHandle.java
@@ -7,7 +7,7 @@ package com.example.a906771.projectmeetingapp;
  * you can get a row of the table with the id of the row
  * you can get a list of a hashmap with id and name of meetings
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.content.ContentValues;
