@@ -1,10 +1,10 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 /**
  * MainActivity.java
  * This class displays up coming meetings in a list
  * A user can add a meeting by press a plus button
  *
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.content.Intent;
