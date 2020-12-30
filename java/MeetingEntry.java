@@ -1,11 +1,11 @@
-package com.example.a906771.projectmeetingapp;
+package com.example.a.projectmeetingapp;
 
 /**
  * MeetingEntry.java
  * Allows the user to enter the name, date/time, notes attendees and location of a meeting and save
  * it on the database
  *or cancel
- * @author Luke Cook (906771)
+ * @author Luke Cook
  */
 
 import android.app.DatePickerDialog;
